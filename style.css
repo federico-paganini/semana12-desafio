@@ -1,0 +1,24 @@
+/* Estilos de Estrellas de Calificación */
+.stars-valoration {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .stars-label {
+    font-size: 20px;
+    padding: 2px;
+    color: darkgrey;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  #stars-container input {
+    display: none;
+  }
+  
+  .stars-label:hover,
+  .stars-label.checked{
+    color: gold;
+    text-shadow: 0 0 10px #952;
+  }
